@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #040508;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: #f4f4f5;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Completely hide ugly white browser scrollbar while keeping smooth wheel scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
