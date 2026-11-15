@@ -1,4 +1,4 @@
-# AEGIS-BIO // Autonomous Closed-Loop Space Suit Survival & Biophysical State-Space Kernel
+# AEGIS-BIO: Autonomous Closed-Loop Space Suit Survival & Biophysical State-Space Kernel
 
 **AEGIS-BIO** is an autonomous, deterministic edge flight-control kernel and 3D anatomical digital twin designed for deep-space extravehicular activity (EVA) and cis-lunar/Mars transit missions where One-Way Light Time (OWLT) radio delays (up to 22 minutes each way) make real-time Earth flight-surgeon intervention impossible
 
